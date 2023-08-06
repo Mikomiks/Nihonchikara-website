@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body class="bg-[#FFF5F1]">
+    <header class="pb-10">
+        {% include 'nihon/layout/navbar.html' %}
+    </header>
+    <div class="px-10 container m-auto ">
+        <div class="flex flex-col-reverse md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/2">
+                <h1 class="text-[48px] jp-700 text-center">
+                    Sign Up , Gakusei!
+                </h1>
+                <div class="text-center">
+                    {{form.errors}}
+                    </div>
+                <form method="POST" class="flex flex-col gap-4 px-2 md:px-20" action="">
+                    {% csrf_token %}
+                 
+                    {{form.username}}
+              
+                    {{form.password1}}
+                  
+                    {{form.password2}}
+                    <div class="flex flex-row items-center gap-3 py-3">
+                        <input checked id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                       <p class="jp-400 text-[16px] leading-6 text-[#616161]"> Creating an An account means you agree with our <b>Terms of Service </b> and Privacy Policy</p>
+
+                    </div>
+                    <input class="py-3 cursor-pointer text-center rounded bg-gray-700 text-white w-1/4 m-auto" type="submit" value="Register">
+                   
+                    </form>
+                   
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="{% static 'public/playground_assets/siginbg.png' %}" alt="" class="w-full h-half">
+            </div>
+        </div>
+    </div>
+{% include 'nihon/layout/footer.html' %}
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloadables2 Thesis</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+</head>
+
+<body  class="bg-[#FFF5F1] ">
+    <header class="  pb-10">
+        <div class="px-10 container m-auto ">
+           {% include 'nihon/layout/navbar.html' %}
+         
+        </div>
+    </header>
+    <div class="px-10 container m-auto ">
+        <h1 class="text-center jp-500 text-black text-24px">
+            DOWNLOAD THE COURSE YOU WANT TO LEARN
+        </h1>
+
+<div class="relative overflow-x-auto px-2 md:px-20 py-20">
+    <table class="w-full text-sm text-left  ">
+     
+        <tbody class="uppercase">
+            <tr class="bg-[#e6e9ed] inter-700 text-[35px] text-center">
+              
+                <td class="px-6 py-4">
+                  <a href="">KATAKANA</a>
+                    
+                </td>
+                <td class="px-6 py-4">
+                  <a href="">Practice</a>
+                    
+                </td>
+                
+                <td class="px-6 py-4 text-red-600">
+                  <a href="{% url 'downloadfile' %}">DOWNLOAD</a>
+                    
+                </td>
+                
+                
+            </tr>
+            
+             <tr class="bg-[#e6e9ed] inter-700 text-[35px] text-center">
+              
+                <td class="px-6 py-4">
+                  <a href="">KATAKANA</a>
+                    
+                </td>
+                <td class="px-6 py-4">
+                  <a href="">Mnemonic Chart</a>
+                    
+                </td>
+                
+                <td class="px-6 py-4 text-red-600">
+                  <a href="{% url 'downloadfile7' %}">Download</a>
+                    
+                </td>
+                
+                
+            </tr>
+            
+           <tr class="bg-[#e6e9ed] inter-700 text-[35px] text-center">
+            
+              <td class="px-6 py-4">
+                <a href="">KATAKANA</a>
+                  
+              </td>
+              <td class="px-6 py-4">
+                <a href="">Charts</a>
+                  
+              </td>
+              
+              <td class="px-6 py-4 text-red-600">
+                <a href="{% url 'downloadfile6' %}">Download</a>
+                  
+              </td>
+              
+              
+          </tr>
+        
+            
+        </tbody>
+    </table>
+</div>
+
+    </div>
+
+{% include 'nihon/layout/footer.html' %}
+</body>
+
+</html>

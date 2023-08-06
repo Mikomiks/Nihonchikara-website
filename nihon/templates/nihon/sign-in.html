@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis Sign in</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body class="bg-[#FFF5F1]">
+    <header class="pb-10">
+        {% include 'nihon/layout/navbar.html' %}
+    </header>
+    <div class="px-10 container m-auto ">
+        <div class="flex flex-col-reverse md:flex-row justify-between items-center">
+            <div class="w-full md:w-1/2">
+                <h1 class="text-[48px] jp-700 text-center">
+                    Login
+                </h1>
+                <form method="POST" class="flex flex-col gap-1 px-2 md:px-20" action="">
+                    {% csrf_token %}
+                 
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                      <input
+                        name="email"
+                        type="email"
+                        required=""
+                        placeholder="Enter your email"
+                        class="bg-gray-50 border border-gray-300 text-black text-[18px] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+                        py-4"
+                      />
+                      <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Password</label>
+                      <input
+                        name="password"
+                        type="password"
+                        required=""
+                        placeholder="Password"
+                        class="bg-gray-50 border border-gray-300 text-black text-[18px] sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+                        py-4"
+                      />
+                      <input class="py-3 cursor-pointer text-center rounded bg-black text-white w-1/4 m-auto" type="submit" value="Sign In">
+                    <p class="text-center py-3">Dont Have an Account?, <a class="text-red-600" href="{% url 'register' %}">Sign Up</a>   </p>
+                    </form>
+                    <div class="text-center">
+                        {% if messages %}
+                        {% for message in messages %}
+                        {% if message.tags %} <script class="message-text07">alert("{{ message }}")</script> {% endif %}
+        
+                        {% endfor %}
+        
+                        {% endif %}
+                    </div>
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="{% static 'public/playground_assets/siginbg.png' %}" alt="" class="w-full h-half">
+            </div>
+        </div>
+    </div>
+{% include 'nihon/layout/footer.html' %}
+</body>
+
+</html>

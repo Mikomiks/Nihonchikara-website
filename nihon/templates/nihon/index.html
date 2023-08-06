@@ -1,0 +1,390 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            label:after {
+                content: '+';
+                position: absolute;
+                right: 1em;
+                color:black;
+              }
+              
+              input:checked + label:after {
+                content: '-';
+                line-height: .8em;
+                color:black;
+              }
+              
+              .accordion__content{
+                max-height: 0em;
+                transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+              }
+           
+        </style>
+</head>
+
+<body>
+    <header class="bg-[#FFF5F1] bottom-shadow pb-10">
+        <div class="px-10 container m-auto ">
+           {% include 'nihon/layout/navbar.html' %}
+            <div class="flex  flex-col-reverse md:flex-row justify-between gap-2 pt-2 md:pt-20 ">
+              <div class="w-full md:w-1/2 pl-0 md:pl-20">
+                <h1 class="jp-300 text-[25px] md:text-[54px] leading-[25px] md:leading-[64px] text-[#181a31] pt-0 md:pt-20">
+                    <span class="jp-400">O</span> pening<br>
+                    <span class="jp-400">O</span> pportunities<br>
+                    <span class="jp-400">T</span> hrough      <span class="jp-400">L</span> anguage
+                </h1>
+                <p class="py-3 jp-100 text-[18px] text-[#66667f]">A <b>unique</b> approach to language learning
+                </p>
+                <div class="flex flex-col md:flex-row gap-5">
+                    <input type="text" class="py-4 rounded-3xl px-3 bg-transparent border border-solid border-gray-600 w-full md:w-3/4" placeholder="enter your Email">
+                    <button class="px-6 py-3 text-center bg-black rounded-full text-white w-2/4 md:w-1/4 m-auto">Send</button>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 ">
+                <img
+                alt="image"
+                src="{% static 'public/playground_assets/png23-900w.png' %}"
+                class="w-full"
+              />
+              </div>
+            </div>
+        </div>
+    </header>
+    <div class="px-10 container m-auto pb-10 pt-20">
+        <div class="flex flex-col  md:flex-row justify-between gap-10 md:gap-20 text-[#130f0c] text-center px-2 md:px-20">
+            <div id="about" class="w-full md:w-1/2">
+                <h1 class="jp-300 text-[48px]">
+                    Our Mission </h1>
+                    <p class="jp-400 text-[18px] leading-9">Teaching and creating todays learner as an excellent individual through complete literacy of the Japanese Language.
+                    </p>
+            </div>
+            <div class="w-full md:w-1/2">
+                <h1 class="jp-300 text-[48px]">
+                    Our Vision </h1>
+                    <p class="jp-400 text-[18px] leading-9">
+                        Making individual able to perform the complete literacy skills of the Japanese Language, from writing, reading, speaking and Hearing, In order to connect and prepare the learners for local employment to international employment as Japan country known to the whole world.             </p>
+            </div>
+        </div>
+    </div>
+    <div class="px-10 container m-auto pb-10 pt-20">
+        <p class="text-gray-400 text-center uppercase text-[20px] jp-700">
+            why choose us
+        </p>
+        <h1 class="pb-14 text-center jp-500 text-[48px] leading-[62px] text-[#181a31]">
+            Our Values </h1>
+            <div class="m-auto py-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+              
+               
+                <div class="m-auto text-center space-y-3 px-2 md:px-12">
+                    <img
+                    alt="VolumeUpI103"
+                    src="{% static 'public/playground_assets/volume-icon.png' %}"
+                    class="m-auto w-[100px] h-[90px]"
+                  />
+                  <h1 class="jp-500 leading-9 text-[#130f0c] text-2xl">Speaking clubs
+                </h1>
+                  <p class="jp-100 text-[#66667f] text-[18px] leading-8">In our school you will practice your skills verbally and technically
+                </p>
+                </div>
+                <div class="m-auto text-center space-y-3 px-2 md:px-12">
+                    <img
+                      alt="UnionI103"
+                      src="{% static 'public/playground_assets/quality-icon.png' %}"
+                      class="m-auto w-[100px] h-[90px]"
+                    />
+                  <h1 class="jp-500 leading-9 text-[#130f0c] text-2xl">
+                    Quality control
+                </h1>
+                  <p class="jp-100 text-[#66667f] text-[18px] leading-8">
+                    The teacher and their work has been monitored thoroughly to provide quality education.    
+                </p>
+                </div>
+                <div class="m-auto text-center space-y-3 px-2 md:px-12">
+                    <img
+                      alt="UnionI103"
+                      src="{% static 'public/playground_assets/progress-icon.png' %}"
+                      class="m-auto w-[100px] h-[90px]"
+                    />
+                  <h1 class="jp-500 leading-9 text-[#130f0c] text-2xl">
+                    Progress analysis
+
+                </h1>
+                  <p class="jp-100 text-[#66667f] text-[18px] leading-8">
+                    Direct teaching skills that allows to control our students’ success in studying.
+ 
+                </p>
+                </div>
+             
+            </div>
+    </div>
+    <div class="px-10 container m-auto pb-10 pt-20">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+            <div id="faculty" class="w-full md:w-1/2 text-center">
+                <h1 class="text-[#130f0c] text-[35px] md:text-[40px] leading-[63px] jp-300">Meet our teacher
+                </h1>
+                <img src="{% static 'public/playground_assets/image11037-r58j-500w.png' %}"
+                 alt="" class="w-full md:w-1/2 m-auto ">
+            </div>
+            <div class="w-full md:w-1/2 ">
+                <h1 class="text-[#181a31] text-[24px] leading-9 jp-600">Melcris Gunayan
+
+                </h1>
+                <p class="text-[#666680] text-[18px] leading-9 jp-100">Japanese Language Teacher
+                </p>
+                <p class="text-black text-[20px] leading-9 jp-300 pt-1 md:pt-20">
+                    The Japanese Language teacher is a Filipino citizen with a Professional Degree of Bachelor of Elementary Education and a Graduate of Japanese Language Course in a prestigious school in Manila with an excellent teaching experience for five years and counting.
+
+                </p>
+                </div>
+        </div>
+        <div class="py-10 md:py-20 flex flex-col md:flex-row justify-between items-center gap-5 md:gap-20">
+            <div class="px-2 md:px-20 w-full md:w-1/2">
+                <img
+                id="proof1"
+                alt="IMG167461513189813664"
+                src="{% static 'public/playground_assets/img167461513189813664-i4q8-600h.png' %}"
+                class="w-full"
+              />
+            </div>
+            <div class="px-2 md:px-20  w-full md:w-1/2">
+                <img
+                id="proof2"
+                alt="IMG167461590689813664"
+                src="{% static 'public/playground_assets/img167461590689813664-3iqq-600h.png' %}"
+                class="w-full"
+              />
+            </div>
+        </div>
+    </div>
+
+    <div class="px-10 container m-auto pb-10 pt-20">
+        <p class="text-gray-400 text-center uppercase text-[20px] jp-700">
+           More Info
+        </p>
+        <h1 class="pb-14 text-center jp-500 text-[48px] leading-[62px] text-[#181a31]">
+            FAQ </h1>
+        <div class="m-auto py-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <!-- box start -->
+            <div id="faq" class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 ">How many hours per session?
+                </label>
+                
+                
+                  <p class="jp-400 text-sm text-black px-4 py-2" id="panel1">Nihon Chikara CDO Japanese Language Offers 4 hours per Class session 8:00am to 12:00noon for morning session / 1:00pm to 5:00pm for Afternoon session
+                    -3 hours learning for special night class 6:00pm to 9:00pm</p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    What are the Schedules?
+                </label>
+                
+                
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Nihon Chikara CDO Japanese Language Offers:
+                    <ul class="p-4 ">
+                        <li>Everyday Class</li>
+                        <li>MWF Class</li>
+                        <li>TTH Class</li>
+                        <li>Night Class</li>
+                    </ul>
+
+
+
+                  </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    How many Months will it takes?
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Offers 300 Hours learning Duration for Japanese Language from writing, speaking, reading and hearing. This program will take up to 3 months or more...
+
+
+                  </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    Do you provide Certificate After Schooling?
+   
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Yes, Nihon Chikara CDO Japanese Language provide Center Certificate after the Student will finish the 300 hours learning program of the Japanese Language.
+
+                  </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    Do you have ID's and Uniforms ?
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Yes, Nihon Chikara CDO Japanese Language has ID's and Uniforms for Students that will cost Php 1000.00 as package of 1 uniform and I.D .
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    Nihon Chikara CDO Japanese Language will conduct a lesson review after schooling?
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Yes, Nihon Chikara CDO Japanese Language will always conduct Review After the learner will finish the 300 Hours learning Duration, and it is for FREE!
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    if I am in ZERO knowledge about Japanese Language can I jump to N4 level instead of N5 first?
+
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                No
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    if I am in ZERO knowledge about Japanese Language can I jump to N4 level instead of N5 first?
+
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                No
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    What level of JLPT did Nihon Chikara CDO Japanese Language Offer?
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    We offer JLPT N5 /JLPT N4/ JLPT N3 /JLPT N2/ JLPT N1 & JFT TEST
+
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    What books are you using?
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Nihon Chikara CDO Japanese Language is using the latest version of MINNA NO NIHONGO BOOKS with complete Series and IRODORI books for JFT lessons. And the School Center has complete books for Business books , kaigo books, how to make email books and many more.
+
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    How to Enroll/ what is the process of te Enrollment
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    Just go to the Nihon Chikara CDO Japanese Language Office ask and fill in registration form then proceed to payments.
+
+
+                </p>
+              
+            </div>
+               <!-- box end -->
+            <!-- box start -->
+            <div class=" border-[5px] border-solid border-black rounded-2xl">
+                <input type="checkbox" name="panel" id="panel-1" class="acinput hidden" checked>
+                <label for="panel-1" class="aclabel relative block jp-500 text-[20px] leading-9 text-black p-4 pb-0 ">
+                    What are the payment methods?
+
+                </label>
+              
+                  <p class="jp-400 text-sm text-black p-4 pb-0" id="panel1">
+                    For installment basis we accept a minimum of Php 5,000.00 as Down payment . Can be made through GCASH/ Checks/ Cash or a Bank Transfer.
+                </p>
+              
+            </div>
+               <!-- box end -->
+     
+        </div>
+    </div>
+       <div class="px-10 container m-auto pb-10 pt-20">
+        <div class="flex flex-col-reverse md:flex-row gap-10 justify-between items-center px-1 md:px-20">
+            <div class="w-full md:w-1/2">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.2484609228754!2d124.6379497!3d8.475204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff32bda0edd19%3A0x654fb12b4ffaad9d!2sSharojo%20Lumber%20Trading!5e0!3m2!1sen!2sph!4v1684762076161!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+            <div class="w-full md:w-1/2 text-center">
+                <img
+                alt="UnionI103"
+                src="{% static 'public/playground_assets/chat-icon.png' %}"
+                class="m-auto w-[100px] h-[90px]"
+              />
+                <h1 class="jp-400 text-3xl text-center">
+                    Contact Us
+
+                </h1>
+                <p id="contactus" class="text-[18px] jp-100 text-[#66667f] leading-9">
+                    Start fulfilling your language dreams with our school
+                </p>
+                <div class="flex flex-col md:flex-row gap-5 px-0 md:px-10">
+                    <input type="text" class="py-4 rounded-3xl px-3 bg-transparent border border-solid border-gray-600 w-full md:w-3/4" placeholder="enter your Email">
+                    <button class="px-6 py-3 text-center bg-black rounded-full text-white w-2/4 md:w-1/4 m-auto">Send</button>
+                </div>
+            </div>
+        </div>
+       </div>
+{% include 'nihon/layout/footer.html' %}
+</body>
+
+</html>

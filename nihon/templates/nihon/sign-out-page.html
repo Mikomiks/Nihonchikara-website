@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            label:after {
+                content: '+';
+                position: absolute;
+                right: 1em;
+                color:black;
+              }
+              
+              input:checked + label:after {
+                content: '-';
+                line-height: .8em;
+                color:black;
+              }
+              
+              .accordion__content{
+                max-height: 0em;
+                transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+              }
+           
+        </style>
+</head>
+
+<body  class="bg-[#FFF5F1] ">
+    <header class="  pb-10">
+        <div class="px-10 container m-auto ">
+           {% include 'nihon/layout/navbar.html' %}
+            <div class="flex  flex-col-reverse md:flex-row justify-between gap-2 pt-2 md:pt-20 ">
+              <div class="w-full md:w-1/2 pl-0 md:pl-20">
+                <h1 class="jp-300 text-[25px] md:text-[54px] leading-[25px] md:leading-[64px] text-[#181a31] pt-0 md:pt-20">
+                    <span class="jp-400">O</span> pening<br>
+                    <span class="jp-400">O</span> pportunities<br>
+                    <span class="jp-400">T</span> hrough      <span class="jp-400">L</span> anguage
+                </h1>
+                <p class="py-3 jp-100 text-[18px] text-[#66667f]">A <b>unique</b> approach to language learning
+                </p>
+                <div class="border-[3px] rounded-lg border-black border-solid py-10 px-4 text-center">
+                   <h1 class="jp-400 text-xl">
+                    Welcome {{request.user}}
+                   </h1>
+                   <p class="jp-500 text-gray-900 text-[18px]">Start Learning our courses!
+                </p>
+                </div>
+              </div>
+              <div class="w-full md:w-1/2 ">
+                <img
+                alt="image"
+                src="{% static 'public/playground_assets/png23-900w.png' %}"
+                class="w-full"
+              />
+              </div>
+            </div>
+        </div>
+    </header>
+
+{% include 'nihon/layout/footer.html' %}
+</body>
+
+</html>

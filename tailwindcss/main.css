@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans JP', sans-serif; */
+
+.jp-100{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+}
+.jp-300{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+.jp-400{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+.jp-500{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+.jp-600{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+}
+.jp-700{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+.inter-300{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.inter-400{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.inter-500{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.inter-600{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.inter-700{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.menu-item{
+    @apply md:p-4 py-2 block hover:text-red-400 text-[14px];
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.bottom-shadow{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-filds-py{
+    @apply bg-gray-50 border border-black text-black text-[18px] sm:text-sm rounded-lg focus:ring-gray-600 focus:border-black block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 py-4;
+}
+

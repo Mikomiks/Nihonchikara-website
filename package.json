@@ -1,0 +1,11 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "tailwindcss",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwindcss/main.css -o ./nihon/static/css/main.css --watch"
+  },
+  "author": "thesis",
+  "license": "ISC"
+}

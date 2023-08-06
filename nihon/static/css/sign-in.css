@@ -1,0 +1,250 @@
+.sign-in-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-in-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-in-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-in-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-in-login {
+  width: 100%;
+  height: 1280px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+}
+.sign-in-navlink {
+  display: contents;
+}
+.sign-in--ihonchikara-pnglogo3 {
+  top: 10px;
+  left: 48px;
+  width: 331px;
+  height: 187px;
+  position: absolute;
+  border-color: transparent;
+  text-decoration: none;
+}
+.sign-in-container4 {
+  top: 429px;
+  left: 268px;
+  width: 410px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-in-text {
+  top: 0px;
+  left: 166px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 500;
+  line-height: 189.9999976158142%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.sign-in-input-field {
+  top: 90px;
+  left: 0px;
+  color: rgba(19, 15, 12, 1);
+  width: 410px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.sign-in-input-field1 {
+  left: 0px;
+  color: rgba(19, 15, 12, 1);
+  width: 410px;
+  bottom: 98px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.sign-in-largebutton {
+  left: 77px;
+  width: 256px;
+  bottom: 0px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(124, 129, 123, 1);
+}
+.sign-in-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.sign-in-container5 {
+  top: 807px;
+  left: 343px;
+  width: 261.140625px;
+  height: 34.1875px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-in-text4 {
+  top: 0px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Thin;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  line-height: 190%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.sign-in-text5 {
+  top: 0px;
+  color: #7c817b;
+  right: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  line-height: 190%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+.sign-in-container6 {
+  top: 39px;
+  left: 960px;
+  width: 929px;
+  height: 1202px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sign-in-rectangle11828 {
+  top: 0px;
+  left: 0px;
+  width: 929px;
+  height: 1202px;
+  position: absolute;
+  border-color: transparent;
+}
+.sign-in-rectangle11829 {
+  top: 54px;
+  left: 63px;
+  width: 804px;
+  height: 1103px;
+  position: absolute;
+  border-color: transparent;
+}
+.sign-in-image2 {
+  top: 377px;
+  left: 193px;
+  width: 720px;
+  height: 799px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+
+.sign-in-prompt {
+  left: 198px;
+  color: #b9391b;
+  bottom: 189px;
+  height: auto;
+  position: absolute;
+  flex-grow: 1;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}

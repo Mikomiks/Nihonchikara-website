@@ -1,0 +1,450 @@
+.downloadables-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.downloadables-frame1section {
+  width: 100%;
+  height: 1239px;
+  display: flex;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background-color: var(--dl-color-default-secondary);
+}
+.downloadables-union {
+  top: 73px;
+  right: 71px;
+  width: 531px;
+  height: 14px;
+  position: absolute;
+}
+.downloadables--ihonchikara-pnglogo1 {
+  top: 0px;
+  left: 0px;
+  width: 340px;
+  height: 175px;
+  position: absolute;
+}
+
+.sign-out-page-navlink {
+  display: contents;
+}
+
+.downloadables-text {
+  top: 335px;
+  left: 0px;
+  color: rgb(0, 0, 0);
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 24px;
+  align-self: center;
+  font-style: Bold;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-weight: 700;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-downloadables-table {
+  top: 486px;
+  left: 567px;
+  width: 825px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.downloadables-frame3 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text01 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame2 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text03 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame1 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text05 {
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame3357 {
+  top: 536px;
+  left: 567px;
+  width: 825px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.downloadables-frame31 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text07 {
+  color: rgb(19, 15, 12);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 130%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame21 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text08 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame11 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text10 {
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame3358 {
+  top: 586px;
+  left: 568px;
+  width: 825px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.downloadables-frame32 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text12 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame22 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text14 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame12 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.downloadables-text16 {
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame3359 {
+  top: 636px;
+  left: 567px;
+  width: 825px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+.downloadables-frame33 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text18 {
+  color: rgb(19, 15, 12);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 130%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame23 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text19 {
+  color: rgba(19, 15, 12, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-frame13 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 10px 40px;
+  flex-grow: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 254, 1);
+}
+.downloadables-text21 {
+  color: rgba(255, 0, 0, 1);
+  height: auto;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.downloadables-footer {
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  bottom: 0px;
+  height: 138px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-end;
+}
+.downloadables--ihonchikara-pnglogo2 {
+  top: 40px;
+  left: 94px;
+  width: 111px;
+  height: 55px;
+  position: absolute;
+}
+.downloadables-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.downloadables-link {
+  display: contents;
+}
+.downloadables-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.downloadables-link1 {
+  display: contents;
+}
+.downloadables-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  text-decoration: none;
+}
+.downloadables-text23 {
+  top: 45px;
+  left: 215px;
+  color: var(--dl-color-default-bodytext);
+  width: 257px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Thin;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 767px) {
+  .downloadables-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .downloadables-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+}

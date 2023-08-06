@@ -1,0 +1,257 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-sign-up {
+  width: 100%;
+  height: 1280px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.sign-up-rectangle11828 {
+  top: 39px;
+  left: 960px;
+  width: 929px;
+  height: 1202px;
+  position: absolute;
+}
+.sign-up-navlink {
+  display: contents;
+}
+.sign-up--ihonchikara-pnglogo3 {
+  top: 10px;
+  left: 48px;
+  width: 331px;
+  height: 187px;
+  position: absolute;
+  border-color: transparent;
+  text-decoration: none;
+}
+.sign-up-line1 {
+  top: 645px;
+  left: 281px;
+  width: 368px;
+  height: 0px;
+  position: absolute;
+}
+.sign-up-rectangle11829 {
+  top: 93px;
+  left: 1023px;
+  width: 804px;
+  height: 1103px;
+  position: absolute;
+  border-color: transparent;
+}
+.sign-up-image2 {
+  top: 416px;
+  left: 1153px;
+  width: 720px;
+  height: 799px;
+  position: absolute;
+  border-color: transparent;
+}
+.sign-up-container1 {
+  top: 531px;
+  left: 293px;
+  width: 410px;
+  height: 233px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sign-up-input-field {
+  top: 0px;
+  left: 0px;
+  color: rgba(19, 15, 12, 1);
+  width: 410px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.sign-up-input-field1 {
+  top: 88px;
+  left: 0px;
+  color: rgba(19, 15, 12, 1);
+  width: 410px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.sign-up-input-field2 {
+  left: 0px;
+  color: rgba(19, 15, 12, 1);
+  width: 410px;
+  bottom: 0px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Noto Sans JP;
+  font-weight: 100;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(223, 228, 226, 1);
+}
+.sign-up-item1 {
+  top: 789px;
+  left: 302px;
+  width: 392px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-radiowrapper {
+  display: flex;
+  padding: 8px;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 8px;
+  justify-content: center;
+}
+.sign-up-controller {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 8px;
+  justify-content: center;
+}
+.sign-up-checkbox {
+  left: 1px;
+  width: 22px;
+  bottom: 1px;
+  height: 22px;
+  position: absolute;
+  border-color: rgba(97, 97, 97, 1);
+  border-width: 1px;
+  border-radius: 30px;
+}
+.sign-up-text {
+  color: var(--dl-color-gray-7001);
+  height: auto;
+  flex-grow: 1;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.sign-up-text1 {
+  font-weight: 400;
+}
+.sign-up-text2 {
+  font-weight: 700;
+}
+.sign-up-text3 {
+  font-weight: 400;
+}
+.sign-up-text5 {
+  top: 428px;
+  left: 367px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Noto Sans JP;
+  font-weight: 500;
+  line-height: 190%;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.sign-up-largebutton {
+  left: 368px;
+  width: 256px;
+  bottom: 356px;
+  height: 64px;
+  display: flex;
+  padding: 24px 32px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 73px;
+  justify-content: center;
+  background-color: rgba(124, 129, 123, 1);
+}
+
+.message-text07 {
+  left: 216px;
+  color: #b9391b;
+  bottom: 99px;
+  height: auto;
+  position: absolute;
+  flex-grow: 1;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
